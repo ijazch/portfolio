@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    color: aliceblue;
+    background: #5c2929;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 4s;
+}
+.navbar a:hover{
+color: aqua;
+}
+.home{
+    color: aliceblue;
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:70PX 10% 0 ;
+
+}
+.home-img img{
+    border: 5px solid aqua;
+    border-radius: 20px;
+    width: 250px;
+    height: 260px;
+   margin-right:290px;
+   box-shadow: 0 0 40px aqua;
+}
+.home-intro h3{
+font-size: 32px;
+font-weight: 700;
+}
+.home-intro h3:nth-of-type(2){
+    margin-bottom: 30px;
+}
+.home-content p {
+    font-size: 16px;
+}
+.home-intro h3 span{
+    color: aqua;
+}
+.home-intro h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: -3px 0;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+
+}
+.social-media a:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 30px aqua;
+}
+.social-media a i{
+    margin: auto;
+    justify-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background:aqua ;
+    border-radius: 50px;
+    box-shadow: 0 0 20px aqua;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.home-intro{
+    margin-top: -10px;
+}
+
+
+
+
